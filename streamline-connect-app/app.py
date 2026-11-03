@@ -84,8 +84,10 @@ def send_notification_email(response_choice, extra_feedback, secret_code):
 # --- App Header & Primary Question ---
 st.title("Hello K ✨")
 st.write(
-    " My Orgnization wants me to learn streamlit, so with their incentive and magic of Ai code editors, 
-    I wanted to ask you the following 1 question directly, without any games or pressure."
+    """
+    My organization wants me to learn Streamlit, so with their incentive and the magic of AI code editors,
+    I wanted to ask you the following question directly, without any games or pressure.
+    """
 )
 
 st.markdown("### Would it be alright if I get to know you a bit better?")
