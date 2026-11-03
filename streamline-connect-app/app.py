@@ -5,7 +5,7 @@ import streamlit as st
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="A Quick Question...",
+    page_title="Quick Question...",
     page_icon="✨",
     layout="centered",
 )
@@ -82,16 +82,17 @@ def send_notification_email(response_choice, extra_feedback, secret_code):
 
 
 # --- App Header & Primary Question ---
-st.title("Hey there ✨")
+st.title("Hello K ✨")
 st.write(
-    "I wanted to ask you something directly, without any games or pressure."
+    " My Orgnization wants me to learn streamlit, so with their incentive and magic of Ai code editors, 
+    I wanted to ask you the following 1 question directly, without any games or pressure."
 )
 
 st.markdown("### Would it be alright if I get to know you a bit better?")
 
 # --- Slider Component ---
 # Equidistant discrete options using select_slider
-options = ["No", "Maybe", "Yes"]
+options = ["Yes", "Maybe", "N"]
 selection = st.select_slider(
     label="Slide to your answer:",
     options=options,
