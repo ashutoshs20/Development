@@ -94,7 +94,7 @@ st.markdown("### Would it be alright if I get to know you a bit better?")
 
 # --- Slider Component ---
 # Equidistant discrete options using select_slider
-options = ["Yes", "Maybe", "N"]
+options = ["Yes", "Maybe", "No"]
 selection = st.select_slider(
     label="Slide to your answer:",
     options=options,
